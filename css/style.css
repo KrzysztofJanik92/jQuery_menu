@@ -36,7 +36,7 @@ body {
 	font-family: 'Oswald', sans-serif;
 	line-height: 75px;
 	padding-bottom: 3px;
-	padding-left: 40px;
+	padding-left: 10px;
 	padding-top: 3px;
 }
 
@@ -45,12 +45,17 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
+	padding: 40px 60px 40px 40px;
+}
+
+.menu a:hover{
+	color: red;
 }
 
 .icon-close {
 	cursor: pointer;
-	padding-left: 10px;
-	padding-top: 10px;
+	padding-left: 30px;
+	padding-top: 30px;
 }
 
 .icon-close img {
@@ -75,12 +80,27 @@ body {
 	font-weight: bold;
 	color: white;
 	float: right;
-	font-size: 20px;
+	font-size: 25px;
 	margin: 10px;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	color: red;
 }
 
 .btn2 {
 	font-weight: bold;
 	color: white;
 	margin: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	padding: 10px 15px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.btn2:hover{
+	background-color: rgba(255, 255, 255, 0.2);
 }
