@@ -77,6 +77,6 @@ html, body {
 	text-transform: uppercase;
 }
 
-.icon-menu i {
-	margin-right: 5px;
+.icon-menu span {
+	font-weight: bold;
 }
