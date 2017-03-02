@@ -5,11 +5,6 @@ var main = function() {
       left: "0px"
     }, 300);
 	$(".xyz").hide(300);
-	
-/*Push the body by 200px*/
-    /*$('body').animate({
-      left: "200px"
-    }, 300);*/
   }); 
   
    /* Then push them back nav*/
@@ -18,11 +13,6 @@ var main = function() {
       left: "-200px"
     }, 300);
 	$(".xyz").show(300);
-
-	/*Then push them back body*/
-    /*$('body').animate({
-      left: "0px"
-    }, 300);*/
   });
 };
 
