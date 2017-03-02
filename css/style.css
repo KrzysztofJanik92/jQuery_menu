@@ -1,13 +1,12 @@
 /* Initial body */
-html, body {
-	width:100%;height:100%;
-	}
 
-	body {
+
+body {
 	 left: 0;
 	 margin: 0;
-	 overflow: hidden;
-	 position: relative;
+	 
+	 background-image: url('../images/reptile.jpg');
+	 background-size: cover;
 }
 
 /* Initial menu */
@@ -21,13 +20,7 @@ html, body {
 
 /* Basic styling */
 
-.container {
-	 background-image: url('../images/reptile.jpg'); 
-	 height: 100%;
-	 -webkit-background-size: cover;
-		-moz-background-size: cover;
-		  -o-background-size: cover;
-			 background-size: cover;
+.container {	
 }
 
 .menu ul {
@@ -69,7 +62,7 @@ html, body {
 	color: #fff;
 	cursor: pointer;
 	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	padding-bottom: 25px;
 	padding-left: 25px;
 	padding-top: 25px;
@@ -77,6 +70,16 @@ html, body {
 	text-transform: uppercase;
 }
 
-.icon-menu span {
+.btn {
 	font-weight: bold;
+	color: white;
+	float: right;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.btn2 {
+	font-weight: bold;
+	color: white;
+	margin: 10px;
 }
